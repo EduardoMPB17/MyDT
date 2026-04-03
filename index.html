@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio personal de Eduardo Remigio Mariqueo Porma – Estudiante de Ingeniería Civil en Informática." />
+  <title>Eduardo Mariqueo | Ing. Civil Informática</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- =================== NAVBAR =================== -->
+  <nav>
+    <span class="nav-logo">EMP.</span>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Inicio</a></li>
+      <li><a href="#about">Sobre Mí</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#education">Formación</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- =================== HERO =================== -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="hero-avatar">👨‍💻</div>
+      <span class="hero-badge">Disponible para trabajar</span>
+      <h1 class="hero-name">Eduardo Mariqueo Porma</h1>
+      <p class="hero-title">Estudiante de Ingeniería Civil en Informática</p>
+      <p class="hero-subtitle">
+        Apasionado por el desarrollo de software, los algoritmos y la resolución de
+        problemas complejos. <span>Chile 🇨🇱</span>
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">Ver Proyectos →</a>
+        <a href="#contact" class="btn btn-outline">Contáctame</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">Scroll</div>
+  </section>
+
+  <!-- =================== ABOUT =================== -->
+  <section id="about">
+    <div class="section-container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Acerca de</span>
+        <h2 class="section-title">Sobre <span>Mí</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-card fade-up">
+          <div class="about-avatar">👨‍💻</div>
+          <div>
+            <h3>Eduardo Mariqueo</h3>
+            <p>Ing. Civil en Informática</p>
+            <div class="about-stats">
+              <div class="stat-item">
+                <div class="stat-number">6+</div>
+                <div class="stat-label">Proyectos</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">5+</div>
+                <div class="stat-label">Lenguajes</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">3+</div>
+                <div class="stat-label">Años</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">∞</div>
+                <div class="stat-label">Ganas</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-text fade-up">
+          <p>
+            Soy <strong>Eduardo Remigio Mariqueo Porma</strong>, estudiante de
+            <strong>Ingeniería Civil en Informática</strong>. Me apasiona la tecnología
+            y el desarrollo de software, con especial interés en algoritmos, estructuras
+            de datos, inteligencia artificial y desarrollo web.
+          </p>
+          <p>
+            A lo largo de mi formación he desarrollado proyectos en distintos lenguajes
+            de programación — desde algoritmos genéticos en Python hasta aplicaciones
+            web en JavaScript — lo que me ha dado una visión amplia del ciclo completo
+            de desarrollo de software.
+          </p>
+          <p>
+            Busco constantemente nuevos desafíos que me permitan crecer como profesional
+            y aportar soluciones innovadoras en equipos de trabajo colaborativos.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <span class="detail-icon">📍</span>
+              <div>
+                <div class="detail-label">Ubicación</div>
+                <div class="detail-value">Chile</div>
+              </div>
+            </div>
+            <div class="detail-item">
+              <span class="detail-icon">🎓</span>
+              <div>
+                <div class="detail-label">Área</div>
+                <div class="detail-value">Ing. Civil Informática</div>
+              </div>
+            </div>
+            <div class="detail-item">
+              <span class="detail-icon">💼</span>
+              <div>
+                <div class="detail-label">Estado</div>
+                <div class="detail-value">Disponible</div>
+              </div>
+            </div>
+            <div class="detail-item">
+              <span class="detail-icon">🐙</span>
+              <div>
+                <div class="detail-label">GitHub</div>
+                <div class="detail-value">
+                  <a href="https://github.com/EduardoMPB17" target="_blank" rel="noopener"
+                     style="color:var(--primary);">EduardoMPB17</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== SKILLS =================== -->
+  <section id="skills">
+    <div class="section-container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Habilidades</span>
+        <h2 class="section-title">Mis <span>Competencias</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="skills-grid">
+        <!-- Lenguajes de programación -->
+        <div class="skill-category fade-up">
+          <h3 class="skill-category-title">
+            <span class="skill-category-icon">💻</span>
+            Lenguajes de Programación
+          </h3>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Python</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-percent">75%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">C / C++</span>
+              <span class="skill-percent">70%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">R</span>
+              <span class="skill-percent">65%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="65%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">SQL</span>
+              <span class="skill-percent">60%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="60%"></div></div>
+          </div>
+        </div>
+        <!-- Desarrollo Web -->
+        <div class="skill-category fade-up">
+          <h3 class="skill-category-title">
+            <span class="skill-category-icon">🌐</span>
+            Desarrollo Web
+          </h3>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">HTML5 / CSS3</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">JavaScript (Vanilla)</span>
+              <span class="skill-percent">75%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Node.js</span>
+              <span class="skill-percent">60%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="60%"></div></div>
+          </div>
+          <div class="tech-tags">
+            <span class="tech-tag">Git</span>
+            <span class="tech-tag">GitHub</span>
+            <span class="tech-tag">VS Code</span>
+            <span class="tech-tag">Linux</span>
+            <span class="tech-tag">REST APIs</span>
+          </div>
+        </div>
+        <!-- Áreas de conocimiento -->
+        <div class="skill-category fade-up">
+          <h3 class="skill-category-title">
+            <span class="skill-category-icon">🧠</span>
+            Áreas de Conocimiento
+          </h3>
+          <div class="tech-tags">
+            <span class="tech-tag">Algoritmos</span>
+            <span class="tech-tag">Estructuras de Datos</span>
+            <span class="tech-tag">Inteligencia Artificial</span>
+            <span class="tech-tag">Algoritmos Genéticos</span>
+            <span class="tech-tag">Ecuaciones Diferenciales</span>
+            <span class="tech-tag">Programación OOP</span>
+            <span class="tech-tag">Modelado Matemático</span>
+            <span class="tech-tag">Desarrollo Web</span>
+            <span class="tech-tag">Bases de Datos</span>
+            <span class="tech-tag">Visualización de Datos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== EDUCATION =================== -->
+  <section id="education">
+    <div class="section-container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Formación</span>
+        <h2 class="section-title">Mi <span>Educación</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="education-list">
+        <div class="edu-item fade-up">
+          <div class="edu-dot">🎓</div>
+          <div class="edu-card">
+            <div class="edu-header">
+              <span class="edu-degree">Ingeniería Civil en Informática</span>
+              <span class="edu-period">2022 – Presente</span>
+            </div>
+            <div class="edu-school">Universidad (Chile)</div>
+            <p class="edu-desc">
+              Carrera de 6 años orientada al diseño, análisis y desarrollo de
+              sistemas informáticos. Incluye formación en matemáticas, ciencias
+              de la computación, ingeniería de software, inteligencia artificial
+              y gestión de proyectos tecnológicos.
+            </p>
+          </div>
+        </div>
+        <div class="edu-item fade-up">
+          <div class="edu-dot">🏫</div>
+          <div class="edu-card">
+            <div class="edu-header">
+              <span class="edu-degree">Enseñanza Media</span>
+              <span class="edu-period">2018 – 2021</span>
+            </div>
+            <div class="edu-school">Liceo / Colegio — Chile</div>
+            <p class="edu-desc">
+              Educación secundaria completa con enfoque científico-humanista.
+              Primeros acercamientos a la programación y las matemáticas aplicadas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== PROJECTS =================== -->
+  <section id="projects">
+    <div class="section-container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Portafolio</span>
+        <h2 class="section-title">Mis <span>Proyectos</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card fade-up">
+          <div class="project-header">
+            <span class="project-icon">🧬</span>
+            <span class="project-lang">Python</span>
+          </div>
+          <h3 class="project-title">Algoritmo Genético CMG</h3>
+          <p class="project-desc">
+            Implementación de un algoritmo genético para encontrar la coalición
+            mínima ganadora más cohesionada entre legisladores, usando posiciones
+            ideológicas en un plano 2D.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Algoritmos Genéticos</span>
+            <span class="project-tag">IA</span>
+            <span class="project-tag">Optimización</span>
+          </div>
+          <a href="https://github.com/EduardoMPB17/AlgoritmoGeneticoCMG"
+             target="_blank" rel="noopener" class="project-link">
+            Ver en GitHub →
+          </a>
+        </div>
+
+        <div class="project-card fade-up">
+          <div class="project-header">
+            <span class="project-icon">📈</span>
+            <span class="project-lang">R</span>
+          </div>
+          <h3 class="project-title">Gráfico EDO Modelo Extendido</h3>
+          <p class="project-desc">
+            Modelo de Enfriamiento/Calentamiento de Newton extendido, simulado
+            gráficamente con valores arbitrarios de k1 y k2.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Ecuaciones Diferenciales</span>
+            <span class="project-tag">Modelado</span>
+            <span class="project-tag">Visualización</span>
+          </div>
+          <a href="https://github.com/EduardoMPB17/GraficoEDO_ModeloExtendido"
+             target="_blank" rel="noopener" class="project-link">
+            Ver en GitHub →
+          </a>
+        </div>
+
+        <div class="project-card fade-up">
+          <div class="project-header">
+            <span class="project-icon">☕</span>
+            <span class="project-lang">JavaScript</span>
+          </div>
+          <h3 class="project-title">Coffee's Management</h3>
+          <p class="project-desc">
+            Sistema de gestión para cafetería desarrollado en JavaScript.
+            Permite administrar productos, pedidos e inventario.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">Gestión</span>
+            <span class="project-tag">Web App</span>
+          </div>
+          <a href="https://github.com/EduardoMPB17/coffee-s-management"
+             target="_blank" rel="noopener" class="project-link">
+            Ver en GitHub →
+          </a>
+        </div>
+
+        <div class="project-card fade-up">
+          <div class="project-header">
+            <span class="project-icon">🌐</span>
+            <span class="project-lang">HTML</span>
+          </div>
+          <h3 class="project-title">Proyecto Web</h3>
+          <p class="project-desc">
+            Proyecto de desarrollo web con HTML, CSS y JavaScript.
+            Demuestra habilidades en diseño y estructuración de interfaces.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">HTML5</span>
+            <span class="project-tag">CSS3</span>
+            <span class="project-tag">JavaScript</span>
+          </div>
+          <a href="https://github.com/EduardoMPB17/Proyecto-WEB"
+             target="_blank" rel="noopener" class="project-link">
+            Ver en GitHub →
+          </a>
+        </div>
+
+        <div class="project-card fade-up">
+          <div class="project-header">
+            <span class="project-icon">🐍</span>
+            <span class="project-lang">Python</span>
+          </div>
+          <h3 class="project-title">Proyecto Programación 2</h3>
+          <p class="project-desc">
+            Proyecto universitario de programación avanzada, aplicando
+            principios de orientación a objetos y algoritmos en Python.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">OOP</span>
+            <span class="project-tag">Universitario</span>
+          </div>
+          <a href="https://github.com/EduardoMPB17/Proyecto_Programacion2"
+             target="_blank" rel="noopener" class="project-link">
+            Ver en GitHub →
+          </a>
+        </div>
+
+        <div class="project-card fade-up">
+          <div class="project-header">
+            <span class="project-icon">⚙️</span>
+            <span class="project-lang">C</span>
+          </div>
+          <h3 class="project-title">Repositorio 1 (C)</h3>
+          <p class="project-desc">
+            Primer repositorio de práctica en C. Ejercicios y proyectos de
+            programación de bajo nivel y manejo de memoria.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">C</span>
+            <span class="project-tag">Bajo Nivel</span>
+            <span class="project-tag">Práctica</span>
+          </div>
+          <a href="https://github.com/EduardoMPB17/repositorio1"
+             target="_blank" rel="noopener" class="project-link">
+            Ver en GitHub →
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== CONTACT =================== -->
+  <section id="contact">
+    <div class="section-container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Contacto</span>
+        <h2 class="section-title">¿Hablamos?</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info fade-up">
+          <h3>¡Estoy disponible!</h3>
+          <p>
+            Si tienes un proyecto en mente, una oferta laboral o simplemente
+            quieres conectar, no dudes en escribirme. Siempre estoy abierto
+            a nuevas oportunidades y colaboraciones.
+          </p>
+          <div class="contact-items">
+            <a href="https://github.com/EduardoMPB17" target="_blank"
+               rel="noopener" class="contact-item">
+              <div class="contact-item-icon">🐙</div>
+              <div>
+                <div class="contact-item-text">GitHub</div>
+                <div class="contact-item-value">github.com/EduardoMPB17</div>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="contact-item-icon">📍</div>
+              <div>
+                <div class="contact-item-text">Ubicación</div>
+                <div class="contact-item-value">Chile 🇨🇱</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">🎓</div>
+              <div>
+                <div class="contact-item-text">Carrera</div>
+                <div class="contact-item-value">Ing. Civil en Informática</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form fade-up">
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre"
+                       placeholder="Tu nombre" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Correo</label>
+                <input type="email" id="email" name="email"
+                       placeholder="tu@correo.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="asunto">Asunto</label>
+              <input type="text" id="asunto" name="asunto"
+                     placeholder="¿En qué puedo ayudarte?" required />
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje"
+                        placeholder="Escribe tu mensaje..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+              Enviar Mensaje
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== FOOTER =================== -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-social">
+        <a href="https://github.com/EduardoMPB17" target="_blank"
+           rel="noopener" class="social-btn" aria-label="GitHub">🐙</a>
+      </div>
+      <p class="footer-text">
+        Diseñado y desarrollado por
+        <span>Eduardo Remigio Mariqueo Porma</span> •
+        © <span id="year"></span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
