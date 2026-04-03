@@ -62,7 +62,7 @@
             <p>Ing. Civil en Informática</p>
             <div class="about-stats">
               <div class="stat-item">
-                <div class="stat-number">6+</div>
+                <div class="stat-number">8+</div>
                 <div class="stat-label">Proyectos</div>
               </div>
               <div class="stat-item">
@@ -424,6 +424,50 @@
           </a>
         </div>
 
+        <div class="project-card fade-up">
+          <div class="project-header">
+            <span class="project-icon">🤖</span>
+            <span class="project-lang">Python</span>
+          </div>
+          <h3 class="project-title">Simulación Q-Learning</h3>
+          <p class="project-desc">
+            Implementación y simulación del algoritmo Q-Learning para la
+            navegación de un robot en un entorno tipo laberinto, con
+            visualización de métricas mediante pygame.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Q-Learning</span>
+            <span class="project-tag">IA</span>
+            <span class="project-tag">Pygame</span>
+          </div>
+          <a href="https://github.com/EduardoMPB17/Simu_Qlearning"
+             target="_blank" rel="noopener" class="project-link">
+            Ver en GitHub →
+          </a>
+        </div>
+
+        <div class="project-card fade-up">
+          <div class="project-header">
+            <span class="project-icon">🗺️</span>
+            <span class="project-lang">Python</span>
+          </div>
+          <h3 class="project-title">Simulación Robot MDP</h3>
+          <p class="project-desc">
+            Simulación en Python del algoritmo MDP Q(s,a) mediante Value
+            Iteration para la toma óptima de decisiones de un robot
+            en un entorno modelado.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">MDP</span>
+            <span class="project-tag">Value Iteration</span>
+            <span class="project-tag">IA</span>
+          </div>
+          <a href="https://github.com/EduardoMPB17/Simu_robot_MDP"
+             target="_blank" rel="noopener" class="project-link">
+            Ver en GitHub →
+          </a>
+        </div>
+
       </div>
     </div>
   </section>
@@ -436,67 +480,57 @@
         <h2 class="section-title">¿Hablamos?</h2>
         <div class="section-divider"></div>
       </div>
-      <div class="contact-grid">
-        <div class="contact-info fade-up">
-          <h3>¡Estoy disponible!</h3>
-          <p>
-            Si tienes un proyecto en mente, una oferta laboral o simplemente
-            quieres conectar, no dudes en escribirme. Siempre estoy abierto
-            a nuevas oportunidades y colaboraciones.
-          </p>
-          <div class="contact-items">
-            <a href="https://github.com/EduardoMPB17" target="_blank"
-               rel="noopener" class="contact-item">
-              <div class="contact-item-icon">🐙</div>
-              <div>
-                <div class="contact-item-text">GitHub</div>
-                <div class="contact-item-value">github.com/EduardoMPB17</div>
-              </div>
-            </a>
-            <div class="contact-item">
-              <div class="contact-item-icon">📍</div>
-              <div>
-                <div class="contact-item-text">Ubicación</div>
-                <div class="contact-item-value">Chile 🇨🇱</div>
-              </div>
+      <div class="contact-solo fade-up">
+        <p class="contact-intro">
+          Si tienes un proyecto en mente, una oferta laboral o simplemente
+          quieres conectar, no dudes en escribirme. Siempre estoy abierto
+          a nuevas oportunidades y colaboraciones.
+        </p>
+        <div class="contact-items-grid">
+          <a href="mailto:eduardomariqueoporma@gmail.com" class="contact-item">
+            <div class="contact-item-icon">✉️</div>
+            <div>
+              <div class="contact-item-text">Correo</div>
+              <div class="contact-item-value">eduardomariqueoporma@gmail.com</div>
             </div>
-            <div class="contact-item">
-              <div class="contact-item-icon">🎓</div>
-              <div>
-                <div class="contact-item-text">Carrera</div>
-                <div class="contact-item-value">Ing. Civil en Informática</div>
-              </div>
+          </a>
+          <div class="contact-item">
+            <div class="contact-item-icon">📱</div>
+            <div>
+              <div class="contact-item-text">Teléfono</div>
+              <div class="contact-item-value">+56 9 XXXX XXXX</div>
             </div>
           </div>
-        </div>
-        <div class="contact-form fade-up">
-          <form id="contactForm">
-            <div class="form-row">
-              <div class="form-group">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre"
-                       placeholder="Tu nombre" required />
-              </div>
-              <div class="form-group">
-                <label for="email">Correo</label>
-                <input type="email" id="email" name="email"
-                       placeholder="tu@correo.com" required />
-              </div>
+          <a href="https://github.com/EduardoMPB17" target="_blank"
+             rel="noopener" class="contact-item">
+            <div class="contact-item-icon">🐙</div>
+            <div>
+              <div class="contact-item-text">GitHub</div>
+              <div class="contact-item-value">github.com/EduardoMPB17</div>
             </div>
-            <div class="form-group">
-              <label for="asunto">Asunto</label>
-              <input type="text" id="asunto" name="asunto"
-                     placeholder="¿En qué puedo ayudarte?" required />
+          </a>
+          <a href="https://www.linkedin.com/in/eduardomariqueo" target="_blank"
+             rel="noopener" class="contact-item">
+            <div class="contact-item-icon">💼</div>
+            <div>
+              <div class="contact-item-text">LinkedIn</div>
+              <div class="contact-item-value">linkedin.com/in/eduardomariqueo</div>
             </div>
-            <div class="form-group">
-              <label for="mensaje">Mensaje</label>
-              <textarea id="mensaje" name="mensaje"
-                        placeholder="Escribe tu mensaje..." required></textarea>
+          </a>
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div>
+              <div class="contact-item-text">Ubicación</div>
+              <div class="contact-item-value">Chile 🇨🇱</div>
             </div>
-            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
-              Enviar Mensaje
-            </button>
-          </form>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">🎓</div>
+            <div>
+              <div class="contact-item-text">Carrera</div>
+              <div class="contact-item-value">Ing. Civil en Informática</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
