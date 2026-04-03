@@ -711,11 +711,22 @@ section {
   background: rgba(17, 24, 39, 0.5);
 }
 
-.contact-grid {
+.contact-solo {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-intro {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact-items-grid {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 3rem;
-  align-items: start;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
 }
 
 .contact-info h3 {
@@ -771,56 +782,6 @@ section {
   font-weight: 600;
   font-size: 0.95rem;
   color: var(--text-secondary);
-}
-
-.contact-form {
-  background: var(--dark-card);
-  border: 1px solid var(--dark-border);
-  border-radius: 16px;
-  padding: 2rem;
-}
-
-.form-group {
-  margin-bottom: 1.2rem;
-}
-
-.form-group label {
-  display: block;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-  margin-bottom: 6px;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid var(--dark-border);
-  border-radius: 8px;
-  color: var(--text-primary);
-  padding: 10px 14px;
-  font-size: 0.9rem;
-  font-family: inherit;
-  transition: border-color 0.2s;
-  outline: none;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  border-color: var(--primary);
-  background: rgba(26, 115, 232, 0.04);
-}
-
-.form-group textarea {
-  resize: vertical;
-  min-height: 110px;
-}
-
-.form-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
 }
 
 /* =================== FOOTER =================== */
@@ -911,7 +872,7 @@ footer {
     margin-top: 0;
   }
 
-  .contact-grid {
+  .contact-items-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -959,7 +920,7 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .form-row {
+  .contact-items-grid {
     grid-template-columns: 1fr;
   }
 

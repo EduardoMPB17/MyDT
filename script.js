@@ -75,38 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   sections.forEach(sec => sectionObserver.observe(sec));
 
-  // ---- Contact form (demo – no backend) ----
-  const form = document.getElementById('contactForm');
-  if (form) {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const nombre = form.querySelector('#nombre').value.trim();
-      const email = form.querySelector('#email').value.trim();
-      const mensaje = form.querySelector('#mensaje').value.trim();
-
-      if (!nombre || !email || !mensaje) {
-        return;
-      }
-
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!emailRegex.test(email)) {
-        form.querySelector('#email').focus();
-        return;
-      }
-
-      const btn = form.querySelector('button[type="submit"]');
-      btn.textContent = '✓ Mensaje recibido (demo)';
-      btn.disabled = true;
-      btn.style.background = 'linear-gradient(135deg, #2ecc71, #27ae60)';
-      setTimeout(() => {
-        btn.textContent = 'Enviar Mensaje';
-        btn.disabled = false;
-        btn.style.background = '';
-        form.reset();
-      }, 3000);
-    });
-  }
-
   // ---- Smooth current year in footer ----
   const yearEl = document.getElementById('year');
   if (yearEl) {

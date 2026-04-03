@@ -12,7 +12,7 @@ Sitio web de portafolio/CV creado para presentar mi perfil profesional, habilida
 MyDT/
 ├── index.html   # Página principal
 ├── styles.css   # Estilos (diseño oscuro responsive)
-└── script.js    # Interactividad (animaciones, navegación, formulario)
+└── script.js    # Interactividad (animaciones, navegación)
 ```
 
 ## Secciones
@@ -22,7 +22,7 @@ MyDT/
 - **Habilidades** — Lenguajes de programación, tecnologías web y áreas de conocimiento
 - **Formación** — Trayectoria académica
 - **Proyectos** — Proyectos destacados en GitHub
-- **Contacto** — Formulario y enlaces de contacto
+- **Contacto** — Datos de contacto directo (correo, teléfono, GitHub, LinkedIn)
 
 ## Tecnologías
 
