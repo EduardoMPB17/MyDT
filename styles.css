@@ -533,6 +533,20 @@ section {
   background: rgba(17, 24, 39, 0.5);
 }
 
+.edu-achievements {
+  list-style: none;
+  margin-top: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.edu-achievements li {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  padding-left: 0.2rem;
+}
+
 .education-list {
   max-width: 800px;
   margin: 0 auto;
@@ -616,6 +630,11 @@ section {
 .edu-desc {
   color: var(--text-muted);
   font-size: 0.9rem;
+}
+
+/* =================== EXPERIENCE =================== */
+#experience {
+  background: rgba(17, 24, 39, 0.5);
 }
 
 /* =================== PROJECTS =================== */
