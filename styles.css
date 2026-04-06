@@ -706,6 +706,29 @@ section {
   color: var(--accent);
 }
 
+/* =================== COLLABORATIONS =================== */
+#collaborations {
+  background: rgba(17, 24, 39, 0.5);
+}
+
+.collab-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.collab-badge {
+  display: inline-block;
+  background: rgba(0, 188, 212, 0.12);
+  border: 1px solid rgba(0, 188, 212, 0.3);
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 9px;
+  border-radius: 12px;
+}
+
 /* =================== CONTACT =================== */
 #contact {
   background: rgba(17, 24, 39, 0.5);
